@@ -1,0 +1,742 @@
+{
+  "path": "media",
+  "videos": [{
+    "filename": "appliance/appliance-1.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "appliance/appliance-2.mp4",
+    "duration": 10.282,
+    "volumeInfo": {
+      "mean": -91,
+      "max": -91
+    },
+    "tags": []
+  }, {
+    "filename": "appliance/appliance-3.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "appliance/appliance-4.mp4",
+    "duration": 24.857,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-1.mp4",
+    "duration": 8.342,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-2.mp4",
+    "duration": 15.32,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-3.mp4",
+    "duration": 28.293,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-4.mp4",
+    "duration": 11.01,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-5.mp4",
+    "duration": 18.225,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-6.mp4",
+    "duration": 18.885,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-7.mp4",
+    "duration": 15.515,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-8.mp4",
+    "duration": 24.357,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-9.mp4",
+    "duration": 16.933,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-10.mp4",
+    "duration": 16.95,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-11.mp4",
+    "duration": 24.565,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-12.mp4",
+    "duration": 17.725,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-13.mp4",
+    "duration": 25.233,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-14.mp4",
+    "duration": 17.317,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-15.mp4",
+    "duration": 16.783,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-16.mp4",
+    "duration": 12.845,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "burger/burger-17.mp4",
+    "duration": 16.648,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-1.mp4",
+    "duration": 12.712,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-2.mp4",
+    "duration": 14.037,
+    "volumeInfo": {
+      "mean": -30.4,
+      "max": -2.5
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-3.mp4",
+    "duration": 15.498,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-4.mp4",
+    "duration": 14.147,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-5.mp4",
+    "duration": 8.14,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "chef/chef-6.mp4",
+    "duration": 13.48,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-1.mp4",
+    "duration": 26.943,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-2.mp4",
+    "duration": 14.613,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-3.mp4",
+    "duration": 10.943,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-4.mp4",
+    "duration": 15.932,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-5.mp4",
+    "duration": 21.27,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-6.mp4",
+    "duration": 31.18,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-7.mp4",
+    "duration": 12.65,
+    "volumeInfo": {
+      "mean": -29.7,
+      "max": 0
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-8.mp4",
+    "duration": 15.682,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-9.mp4",
+    "duration": 13.613,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-10.mp4",
+    "duration": 18.352,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-11.mp4",
+    "duration": 50.925,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-12.mp4",
+    "duration": 21.153,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-13.mp4",
+    "duration": 18.352,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-14.mp4",
+    "duration": 14.913,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-15.mp4",
+    "duration": 21.27,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cooking/cooking-16.mp4",
+    "duration": 20.72,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-1.mp4",
+    "duration": 17.92,
+    "volumeInfo": {
+      "mean": -90.3,
+      "max": -78.3
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-2.mp4",
+    "duration": 17.95,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-3.mp4",
+    "duration": 10.667,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-4.mp4",
+    "duration": 10.211,
+    "volumeInfo": {
+      "mean": -90.3,
+      "max": -78.3
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-5.mp4",
+    "duration": 9.739,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-6.mp4",
+    "duration": 14.213,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-7.mp4",
+    "duration": 12.967,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-8.mp4",
+    "duration": 13.952,
+    "volumeInfo": {
+      "mean": -38.2,
+      "max": -15
+    },
+    "tags": []
+  }, {
+    "filename": "cows/cows-9.mp4",
+    "duration": 7.907,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-1.mp4",
+    "duration": 15.148,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-2.mp4",
+    "duration": 15.84,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-3.mp4",
+    "duration": 18.885,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-4.mp4",
+    "duration": 31.965,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-5.mp4",
+    "duration": 21.32,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-6.mp4",
+    "duration": 24.123,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "eat/eat-7.mp4",
+    "duration": 8.24,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-1.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-2.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-3.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-4.mp4",
+    "duration": 18.685,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-5.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-6.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "fire/fire-7.mp4",
+    "duration": 13.913,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-1.mp4",
+    "duration": 25.825,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-2.mp4",
+    "duration": 36.618,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-3.mp4",
+    "duration": 41.332,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-4.mp4",
+    "duration": 41.332,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-5.mp4",
+    "duration": 24.49,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-6.mp4",
+    "duration": 10.01,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-7.mp4",
+    "duration": 10.11,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-8.mp4",
+    "duration": 14.388,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-9.mp4",
+    "duration": 10.135,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-10.mp4",
+    "duration": 20.607,
+    "volumeInfo": {
+      "mean": -32.3,
+      "max": -2.8
+    },
+    "tags": []
+  }, {
+    "filename": "food/food-11.mp4",
+    "duration": 16.717,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "franchise/franchise-1.mp4",
+    "duration": 15.5,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "franchise/franchise-2.mp4",
+    "duration": 13.447,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "franchise/franchise-3.mp4",
+    "duration": 13.947,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-1.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-2.mp4",
+    "duration": 15.015,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-3.mp4",
+    "duration": 16.683,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-4.mp4",
+    "duration": 8,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-5.mp4",
+    "duration": 16.482,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-6.mp4",
+    "duration": 12.012,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "gold/gold-7.mp4",
+    "duration": 15.048,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "money/money-1.mp4",
+    "duration": 28.82,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "money/money-2.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "money/money-3.mp4",
+    "duration": 13.178,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "money/money-4.mp4",
+    "duration": 16,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
+    "filename": "money/money-5.mp4",
+    "duration": 21.387,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }],
+  "audio": [],
+  "frames": []
+}
