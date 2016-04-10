@@ -1,4 +1,5 @@
-[{
+
+var timing = [{
   "time": 0,
   "tag": "fire",
   "start": 0
@@ -358,4 +359,39 @@
   "time": 126.96666666666667,
   "tag": "burger",
   "start": 0
-}]
+}];
+
+var renderer = new frampton.Renderer({
+  mediaConfig: mediaConfig,
+  log: true
+});
+
+var tagger = new frampton.Tagger(mediaConfig);
+var expectedTags = ['fire', 'cows', 'cooking', 'chef', 'burger', 'food', 'eat', 'appliance', 'franchise', 'gold', 'money'];
+expectedTags.forEach(function(tag) { tagger.tagVideosWithPattern(tag, tag); });
+
+var taggedVideos = {};
+expectedTags.forEach(function(tag) { taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true}); });
+
+timing.forEach(function(timingItem, idx) {
+  var tag = timingItem.tag;
+
+  var videos = taggedVideos[tag];
+  var video = videos.shift();
+  if (videos.length === 0) {
+    taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true});
+  }
+
+  var videoSegment = new frampton.VideoSegment(video);
+  videoSegment.setVolume(0);
+
+  if (idx + 1 < timing.length) {
+    var nextItem = timing[idx + 1];
+    videoSegment.setDuration(nextItem.time - timingItem.time);
+  }
+  else {
+    videoSegment.setDuration(3.5);
+  }
+
+  renderer.scheduleSegmentRender(videoSegment, timingItem.time * 1000);
+});

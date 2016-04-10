@@ -6,6 +6,8 @@ var timing = require('./timing.json');
 var renderer = new frampton.VideoRenderer({
   mediaConfig: mediaConfig,
   inputVideosHaveDifferentCodecs: true,
+  stripAudioFromAllVideos: true,
+  preferredVideoScale: '1920:1080',
   log: true
 });
 
@@ -26,6 +28,7 @@ timing.forEach(function(timingItem, idx) {
   }
 
   var videoSegment = new frampton.VideoSegment(video);
+  videoSegment.setVolume(0);
 
   if (idx + 1 < timing.length) {
     var nextItem = timing[idx + 1];
