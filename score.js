@@ -13,8 +13,18 @@ var tagger = new frampton.Tagger(mediaConfig);
 var expectedTags = ['fire', 'cows', 'cooking', 'chef', 'burger', 'food', 'eat', 'appliance', 'franchise', 'gold', 'money'];
 expectedTags.forEach(function(tag) { tagger.tagVideosWithPattern(tag, tag); });
 
+var taggedVideos = {};
+expectedTags.forEach(function(tag) { taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true}); });
+
 timing.forEach(function(timingItem) {
-  var video = tagger.randomVideoWithTag(timingItem.tag);
+  var tag = timingItem.tag;
+
+  var videos = taggedVideos[tag];
+  var video = videos.shift();
+  if (videos.length === 0) {
+    taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true});
+  }
+
   var videoSegment = new frampton.VideoSegment(video);
   renderer.scheduleSegmentRender(videoSegment, timingItem.time * 1000);
 });
