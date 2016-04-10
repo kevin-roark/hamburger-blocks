@@ -5,7 +5,8 @@ var timing = require('./timing.json');
 
 var renderer = new frampton.VideoRenderer({
   mediaConfig: mediaConfig,
-  inputVideosHaveDifferentCodecs: true
+  inputVideosHaveDifferentCodecs: true,
+  log: true
 });
 
 var tagger = new frampton.Tagger(mediaConfig);
