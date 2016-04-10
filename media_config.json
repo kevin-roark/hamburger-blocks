@@ -345,6 +345,14 @@
     },
     "tags": []
   }, {
+    "filename": "cooking/cooking-17.mp4",
+    "duration": 24.124,
+    "volumeInfo": {
+      "mean": -91,
+      "max": -91
+    },
+    "tags": []
+  }, {
     "filename": "cows/cows-1.mp4",
     "duration": 17.92,
     "volumeInfo": {
@@ -442,7 +450,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-4.mp4",
-    "duration": 31.965,
+    "duration": 14.388,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -458,7 +466,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-6.mp4",
-    "duration": 24.123,
+    "duration": 10.135,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -538,26 +546,18 @@
     "tags": []
   }, {
     "filename": "food/food-2.mp4",
-    "duration": 36.618,
+    "duration": 36.62,
     "volumeInfo": {
-      "mean": null,
-      "max": null
+      "mean": -91,
+      "max": -91
     },
     "tags": []
   }, {
     "filename": "food/food-3.mp4",
-    "duration": 41.332,
+    "duration": 41.333,
     "volumeInfo": {
-      "mean": null,
-      "max": null
-    },
-    "tags": []
-  }, {
-    "filename": "food/food-4.mp4",
-    "duration": 41.332,
-    "volumeInfo": {
-      "mean": null,
-      "max": null
+      "mean": -91,
+      "max": -91
     },
     "tags": []
   }, {
@@ -585,22 +585,6 @@
     },
     "tags": []
   }, {
-    "filename": "food/food-8.mp4",
-    "duration": 14.388,
-    "volumeInfo": {
-      "mean": null,
-      "max": null
-    },
-    "tags": []
-  }, {
-    "filename": "food/food-9.mp4",
-    "duration": 10.135,
-    "volumeInfo": {
-      "mean": null,
-      "max": null
-    },
-    "tags": []
-  }, {
     "filename": "food/food-10.mp4",
     "duration": 20.607,
     "volumeInfo": {
@@ -618,7 +602,7 @@
     "tags": []
   }, {
     "filename": "franchise/franchise-1.mp4",
-    "duration": 15.5,
+    "duration": 13.947,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -627,14 +611,6 @@
   }, {
     "filename": "franchise/franchise-2.mp4",
     "duration": 13.447,
-    "volumeInfo": {
-      "mean": null,
-      "max": null
-    },
-    "tags": []
-  }, {
-    "filename": "franchise/franchise-3.mp4",
-    "duration": 13.947,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -737,6 +713,14 @@
     },
     "tags": []
   }],
-  "audio": [],
+  "audio": [{
+    "filename": "feed_the_streets.mp3",
+    "duration": 130.415011,
+    "volumeInfo": {
+      "mean": -12.3,
+      "max": 0
+    },
+    "tags": []
+  }],
   "frames": []
 }
