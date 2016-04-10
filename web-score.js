@@ -370,6 +370,8 @@ var tagger = new frampton.Tagger(mediaConfig);
 var expectedTags = ['fire', 'cows', 'cooking', 'chef', 'burger', 'food', 'eat', 'appliance', 'franchise', 'gold', 'money'];
 expectedTags.forEach(function(tag) { tagger.tagVideosWithPattern(tag, tag); });
 
+var startDelay = 1000;
+
 var taggedVideos = {};
 expectedTags.forEach(function(tag) { taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true}); });
 
@@ -393,5 +395,9 @@ timing.forEach(function(timingItem, idx) {
     videoSegment.setDuration(3.5);
   }
 
-  renderer.scheduleSegmentRender(videoSegment, timingItem.time * 1000);
+  renderer.scheduleSegmentRender(videoSegment, startDelay + timingItem.time * 1000);
 });
+
+var audioSegment = new frampton.AudioSegment(mediaConfig.audio[0]);
+audioSegment.preferHTMLAudio = true;
+renderer.scheduleSegmentRender(audioSegment, startDelay);

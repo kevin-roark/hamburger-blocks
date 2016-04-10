@@ -217,6 +217,14 @@
     },
     "tags": []
   }, {
+    "filename": "chef/chef-7.mp4",
+    "duration": 10.943,
+    "volumeInfo": {
+      "mean": null,
+      "max": null
+    },
+    "tags": []
+  }, {
     "filename": "cooking/cooking-1.mp4",
     "duration": 26.943,
     "volumeInfo": {
@@ -227,14 +235,6 @@
   }, {
     "filename": "cooking/cooking-2.mp4",
     "duration": 14.613,
-    "volumeInfo": {
-      "mean": null,
-      "max": null
-    },
-    "tags": []
-  }, {
-    "filename": "cooking/cooking-3.mp4",
-    "duration": 10.943,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -546,7 +546,7 @@
     "tags": []
   }, {
     "filename": "food/food-2.mp4",
-    "duration": 36.62,
+    "duration": 24.316,
     "volumeInfo": {
       "mean": -91,
       "max": -91
@@ -554,7 +554,7 @@
     "tags": []
   }, {
     "filename": "food/food-3.mp4",
-    "duration": 41.333,
+    "duration": 24.191,
     "volumeInfo": {
       "mean": -91,
       "max": -91
