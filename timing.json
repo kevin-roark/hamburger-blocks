@@ -60,11 +60,11 @@
   "start": 0
 }, {
   "time": 22.3,
-  "tag": "burger",
+  "tag": "money",
   "start": 0
 }, {
   "time": 23.633333333333333,
-  "tag": "money",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 24,
@@ -84,11 +84,11 @@
   "start": 0
 }, {
   "time": 30.433333333333334,
-  "tag": "cooking",
+  "tag": "burger",
   "start": 0
 }, {
   "time": 31.8,
-  "tag": "food",
+  "tag": "burger",
   "start": 0
 }, {
   "time": 34.3,
@@ -100,11 +100,11 @@
   "start": 0
 }, {
   "time": 39.4,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 41.1,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 42.8,
@@ -176,7 +176,7 @@
   "start": 0
 }, {
   "time": 58.3,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 59.166666666666664,
@@ -220,7 +220,7 @@
   "start": 0
 }, {
   "time": 72.13333333333334,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 73.86666666666666,
@@ -232,7 +232,7 @@
   "start": 0
 }, {
   "time": 76.36666666666666,
-  "tag": "franchise",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 76.76666666666667,
@@ -312,7 +312,7 @@
   "start": 0
 }, {
   "time": 105.9,
-  "tag": "appliance",
+  "tag": "fire",
   "start": 0
 }, {
   "time": 107.13333333333334,
