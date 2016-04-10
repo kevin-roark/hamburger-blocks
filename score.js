@@ -16,7 +16,7 @@ expectedTags.forEach(function(tag) { tagger.tagVideosWithPattern(tag, tag); });
 var taggedVideos = {};
 expectedTags.forEach(function(tag) { taggedVideos[tag] = tagger.videosWithTag(tag, {shuffle: true}); });
 
-timing.forEach(function(timingItem) {
+timing.forEach(function(timingItem, idx) {
   var tag = timingItem.tag;
 
   var videos = taggedVideos[tag];
@@ -26,5 +26,14 @@ timing.forEach(function(timingItem) {
   }
 
   var videoSegment = new frampton.VideoSegment(video);
+
+  if (idx + 1 < timing.length) {
+    var nextItem = timing[idx + 1];
+    videoSegment.setDuration(nextItem.time - timingItem.time);
+  }
+  else {
+    videoSegment.setDuration(3.5);
+  }
+
   renderer.scheduleSegmentRender(videoSegment, timingItem.time * 1000);
 });
