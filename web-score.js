@@ -362,8 +362,7 @@ var timing = [{
 }];
 
 var renderer = new frampton.Renderer({
-  mediaConfig: mediaConfig,
-  log: true
+  mediaConfig: mediaConfig
 });
 
 var tagger = new frampton.Tagger(mediaConfig);
@@ -395,7 +394,7 @@ timing.forEach(function(timingItem, idx) {
     videoSegment.setDuration(3.5);
   }
 
-  //renderer.scheduleSegmentRender(videoSegment, startDelay + timingItem.time * 1000);
+  renderer.scheduleSegmentRender(videoSegment, startDelay + timingItem.time * 1000);
 });
 
 // check for MP3

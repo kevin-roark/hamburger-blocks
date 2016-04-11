@@ -99,6 +99,7 @@ body {
   padding: 20px 40px;
   text-shadow: 1px 0px 1px rgba(160, 160, 170, .5), 2px 1px 1px rgba(159, 159, 169, .6), 3px 2px 1px rgba(158, 158, 168, .7), 4px 3px 1px rgba(157, 157, 167, .8), 5px 4px 1px rgba(156, 156, 166, .9), 6px 5px 1px rgba(155, 155, 165, 1), 7px 6px 1px rgba(154, 154, 164, 1), 8px 7px 1px rgba(153, 153, 163, 1), 9px 8px 1px rgba(152, 152, 162, 1), 12px 12px 20px rgba(0, 0, 0, .20);
   transform: skewY(-15deg);
+  z-index: 100;
 }
 
 .thanks {

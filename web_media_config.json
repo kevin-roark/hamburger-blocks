@@ -1,5 +1,5 @@
 {
-  "path": "media",
+  "path": "media-converted",
   "videos": [{
     "filename": "appliance/appliance-1.mp4",
     "duration": 16,
@@ -10,7 +10,7 @@
     "tags": []
   }, {
     "filename": "appliance/appliance-2.mp4",
-    "duration": 10.282,
+    "duration": 10.304,
     "volumeInfo": {
       "mean": -91,
       "max": -91
@@ -26,7 +26,7 @@
     "tags": []
   }, {
     "filename": "appliance/appliance-4.mp4",
-    "duration": 24.857,
+    "duration": 24.859,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -50,7 +50,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-3.mp4",
-    "duration": 28.293,
+    "duration": 28.295,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -58,7 +58,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-4.mp4",
-    "duration": 11.01,
+    "duration": 11.011,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -66,7 +66,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-5.mp4",
-    "duration": 18.225,
+    "duration": 18.227,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -74,7 +74,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-6.mp4",
-    "duration": 18.885,
+    "duration": 18.886,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -82,7 +82,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-7.mp4",
-    "duration": 15.515,
+    "duration": 15.516,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -90,7 +90,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-8.mp4",
-    "duration": 24.357,
+    "duration": 24.358,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -98,7 +98,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-9.mp4",
-    "duration": 16.933,
+    "duration": 16.934,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -106,7 +106,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-10.mp4",
-    "duration": 16.95,
+    "duration": 16.951,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -114,7 +114,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-11.mp4",
-    "duration": 24.565,
+    "duration": 24.567,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -122,7 +122,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-12.mp4",
-    "duration": 17.725,
+    "duration": 17.727,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -130,7 +130,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-13.mp4",
-    "duration": 25.233,
+    "duration": 25.234,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -138,7 +138,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-14.mp4",
-    "duration": 17.317,
+    "duration": 17.318,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -146,7 +146,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-15.mp4",
-    "duration": 16.783,
+    "duration": 16.784,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -154,7 +154,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-16.mp4",
-    "duration": 12.845,
+    "duration": 12.847,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -162,7 +162,7 @@
     "tags": []
   }, {
     "filename": "burger/burger-17.mp4",
-    "duration": 16.648,
+    "duration": 16.65,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -170,7 +170,7 @@
     "tags": []
   }, {
     "filename": "chef/chef-1.mp4",
-    "duration": 12.712,
+    "duration": 12.713,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -178,15 +178,15 @@
     "tags": []
   }, {
     "filename": "chef/chef-2.mp4",
-    "duration": 14.037,
+    "duration": 14.059,
     "volumeInfo": {
-      "mean": -30.4,
+      "mean": -30.5,
       "max": -2.5
     },
     "tags": []
   }, {
     "filename": "chef/chef-3.mp4",
-    "duration": 15.498,
+    "duration": 15.499,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -194,7 +194,7 @@
     "tags": []
   }, {
     "filename": "chef/chef-4.mp4",
-    "duration": 14.147,
+    "duration": 14.148,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -202,7 +202,7 @@
     "tags": []
   }, {
     "filename": "chef/chef-5.mp4",
-    "duration": 8.14,
+    "duration": 8.142,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -210,7 +210,7 @@
     "tags": []
   }, {
     "filename": "chef/chef-6.mp4",
-    "duration": 13.48,
+    "duration": 13.481,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -218,7 +218,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-1.mp4",
-    "duration": 26.943,
+    "duration": 26.944,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -226,7 +226,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-2.mp4",
-    "duration": 14.613,
+    "duration": 14.615,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -234,7 +234,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-3.mp4",
-    "duration": 10.943,
+    "duration": 10.945,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -242,7 +242,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-4.mp4",
-    "duration": 15.932,
+    "duration": 15.933,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -250,7 +250,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-5.mp4",
-    "duration": 21.27,
+    "duration": 21.272,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -258,7 +258,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-6.mp4",
-    "duration": 31.18,
+    "duration": 31.182,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -266,15 +266,15 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-7.mp4",
-    "duration": 12.65,
+    "duration": 12.672,
     "volumeInfo": {
-      "mean": -29.7,
+      "mean": -29.6,
       "max": 0
     },
     "tags": []
   }, {
     "filename": "cooking/cooking-8.mp4",
-    "duration": 15.682,
+    "duration": 15.683,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -282,7 +282,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-9.mp4",
-    "duration": 13.613,
+    "duration": 13.614,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -298,7 +298,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-11.mp4",
-    "duration": 50.925,
+    "duration": 50.926,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -306,7 +306,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-12.mp4",
-    "duration": 21.153,
+    "duration": 21.155,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -322,7 +322,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-14.mp4",
-    "duration": 14.913,
+    "duration": 14.915,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -330,7 +330,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-15.mp4",
-    "duration": 21.27,
+    "duration": 21.272,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -338,7 +338,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-16.mp4",
-    "duration": 20.72,
+    "duration": 20.721,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -346,7 +346,7 @@
     "tags": []
   }, {
     "filename": "cooking/cooking-17.mp4",
-    "duration": 24.124,
+    "duration": 24.192,
     "volumeInfo": {
       "mean": -91,
       "max": -91
@@ -354,7 +354,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-1.mp4",
-    "duration": 17.92,
+    "duration": 17.942,
     "volumeInfo": {
       "mean": -90.3,
       "max": -78.3
@@ -362,7 +362,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-2.mp4",
-    "duration": 17.95,
+    "duration": 17.952,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -378,7 +378,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-4.mp4",
-    "duration": 10.211,
+    "duration": 10.24,
     "volumeInfo": {
       "mean": -90.3,
       "max": -78.3
@@ -394,7 +394,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-6.mp4",
-    "duration": 14.213,
+    "duration": 14.215,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -410,7 +410,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-8.mp4",
-    "duration": 13.952,
+    "duration": 13.974,
     "volumeInfo": {
       "mean": -38.2,
       "max": -15
@@ -418,7 +418,7 @@
     "tags": []
   }, {
     "filename": "cows/cows-9.mp4",
-    "duration": 7.907,
+    "duration": 7.908,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -426,7 +426,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-1.mp4",
-    "duration": 15.148,
+    "duration": 15.149,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -442,7 +442,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-3.mp4",
-    "duration": 18.885,
+    "duration": 18.886,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -450,7 +450,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-4.mp4",
-    "duration": 31.965,
+    "duration": 31.966,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -458,7 +458,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-5.mp4",
-    "duration": 21.32,
+    "duration": 21.322,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -466,7 +466,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-6.mp4",
-    "duration": 24.123,
+    "duration": 24.125,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -474,7 +474,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-7.mp4",
-    "duration": 8.24,
+    "duration": 8.242,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -482,7 +482,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-8.mp4",
-    "duration": 14.388,
+    "duration": 14.39,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -490,7 +490,7 @@
     "tags": []
   }, {
     "filename": "eat/eat-9.mp4",
-    "duration": 10.135,
+    "duration": 10.136,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -522,7 +522,7 @@
     "tags": []
   }, {
     "filename": "fire/fire-4.mp4",
-    "duration": 18.685,
+    "duration": 18.686,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -546,7 +546,7 @@
     "tags": []
   }, {
     "filename": "fire/fire-7.mp4",
-    "duration": 13.913,
+    "duration": 13.914,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -554,7 +554,7 @@
     "tags": []
   }, {
     "filename": "food/food-1.mp4",
-    "duration": 25.825,
+    "duration": 25.826,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -562,7 +562,7 @@
     "tags": []
   }, {
     "filename": "food/food-2.mp4",
-    "duration": 24.316,
+    "duration": 24.384,
     "volumeInfo": {
       "mean": -91,
       "max": -91
@@ -570,7 +570,7 @@
     "tags": []
   }, {
     "filename": "food/food-3.mp4",
-    "duration": 24.191,
+    "duration": 24.256,
     "volumeInfo": {
       "mean": -91,
       "max": -91
@@ -578,7 +578,7 @@
     "tags": []
   }, {
     "filename": "food/food-5.mp4",
-    "duration": 24.49,
+    "duration": 24.492,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -594,7 +594,7 @@
     "tags": []
   }, {
     "filename": "food/food-7.mp4",
-    "duration": 10.11,
+    "duration": 10.111,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -602,10 +602,10 @@
     "tags": []
   }, {
     "filename": "food/food-10.mp4",
-    "duration": 20.607,
+    "duration": 20.63,
     "volumeInfo": {
-      "mean": -32.3,
-      "max": -2.8
+      "mean": -32.5,
+      "max": -2.9
     },
     "tags": []
   }, {
@@ -618,7 +618,7 @@
     "tags": []
   }, {
     "filename": "franchise/franchise-1.mp4",
-    "duration": 13.947,
+    "duration": 13.948,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -650,7 +650,7 @@
     "tags": []
   }, {
     "filename": "gold/gold-3.mp4",
-    "duration": 16.683,
+    "duration": 16.684,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -666,7 +666,7 @@
     "tags": []
   }, {
     "filename": "gold/gold-5.mp4",
-    "duration": 16.482,
+    "duration": 16.484,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -682,7 +682,7 @@
     "tags": []
   }, {
     "filename": "gold/gold-7.mp4",
-    "duration": 15.048,
+    "duration": 15.049,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -690,7 +690,7 @@
     "tags": []
   }, {
     "filename": "money/money-1.mp4",
-    "duration": 28.82,
+    "duration": 28.821,
     "volumeInfo": {
       "mean": null,
       "max": null
@@ -706,7 +706,7 @@
     "tags": []
   }, {
     "filename": "money/money-3.mp4",
-    "duration": 13.178,
+    "duration": 13.18,
     "volumeInfo": {
       "mean": null,
       "max": null
