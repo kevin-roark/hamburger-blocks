@@ -63,6 +63,18 @@
     <a href="http://www.art404.com" target="_blank">Moises404</a> :)
   </div>
 
+  <script>
+    (function() {
+      var isChrome = /Chrome/.test(navigator.userAgent) && /Google Inc/.test(navigator.vendor);
+      if (!isChrome) {
+        console.log('not chrome...');
+        var notChromeMessage = document.createElement('div');
+        notChromeMessage.className = 'not-chrome-message';
+        notChromeMessage.textContent = 'Please watch our Hamburger Helper generative video on Google Chrome. Thank you!';
+        document.body.appendChild(notChromeMessage);
+      }
+    })();
+  </script>
   <script src="js/jquery-1.7.2.js"></script>
   <script src="js/audioaligner.js"></script>
   <script src="js/build.js"></script>
