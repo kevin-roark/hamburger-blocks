@@ -1411,7 +1411,10 @@ module.exports={"path":"media/","videos":[{"filename":"appliance/appliance-1.mp4
   }];
 
   var renderer = new frampton.WebRenderer({
-    mediaConfig: mediaConfig
+    mediaConfig: mediaConfig,
+    videoSourceMaker: function videoSourceMaker(file) {
+      return 'media-converted/' + file;
+    }
   });
 
   var tagger = new frampton.Tagger(mediaConfig);
@@ -1457,7 +1460,7 @@ module.exports={"path":"media/","videos":[{"filename":"appliance/appliance-1.mp4
 
   // create aligner
   var aligner = new window.AudioAligner(document.getElementById('target'), audio);
-  aligner.align('media/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
+  aligner.align('media-converted/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
 
   // play when visuals start
   setTimeout(function () {

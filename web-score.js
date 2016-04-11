@@ -362,7 +362,10 @@ var timing = [{
 }];
 
 var renderer = new frampton.Renderer({
-  mediaConfig: mediaConfig
+  mediaConfig: mediaConfig,
+  videoSourceMaker: function(file) {
+    return 'media-converted/' + file;
+  }
 });
 
 var tagger = new frampton.Tagger(mediaConfig);
@@ -405,7 +408,7 @@ if (!(audio.canPlayType && (audio.canPlayType('audio/mp3') || audio.canPlayType(
 
 // create aligner
 var aligner = new window.AudioAligner(document.getElementById('target'), audio);
-aligner.align('media/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
+aligner.align('media-converted/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
 
 // play when visuals start
 setTimeout(function() {
