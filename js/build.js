@@ -1464,6 +1464,10 @@ module.exports={"path":"media/","videos":[{"filename":"appliance/appliance-1.mp4
   setTimeout(function () {
     audio.play();
   }, startDelay);
+
+  setTimeout(function () {
+    document.querySelector('.thanks').style.display = 'block';
+  }, 128000);
 })();
 
 },{"../../src/web-frampton":25,"./media_config.json":3}],5:[function(require,module,exports){

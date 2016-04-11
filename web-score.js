@@ -412,3 +412,7 @@ aligner.align('media/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
 setTimeout(function() {
   audio.play();
 }, startDelay);
+
+setTimeout(function() {
+  document.querySelector('.thanks').style.display = 'block';
+}, 128000);
