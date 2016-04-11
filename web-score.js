@@ -61,11 +61,11 @@ var timing = [{
   "start": 0
 }, {
   "time": 22.3,
-  "tag": "burger",
+  "tag": "money",
   "start": 0
 }, {
   "time": 23.633333333333333,
-  "tag": "money",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 24,
@@ -85,11 +85,11 @@ var timing = [{
   "start": 0
 }, {
   "time": 30.433333333333334,
-  "tag": "cooking",
+  "tag": "burger",
   "start": 0
 }, {
   "time": 31.8,
-  "tag": "food",
+  "tag": "burger",
   "start": 0
 }, {
   "time": 34.3,
@@ -101,11 +101,11 @@ var timing = [{
   "start": 0
 }, {
   "time": 39.4,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 41.1,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 42.8,
@@ -177,7 +177,7 @@ var timing = [{
   "start": 0
 }, {
   "time": 58.3,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 59.166666666666664,
@@ -221,7 +221,7 @@ var timing = [{
   "start": 0
 }, {
   "time": 72.13333333333334,
-  "tag": "eat",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 73.86666666666666,
@@ -233,7 +233,7 @@ var timing = [{
   "start": 0
 }, {
   "time": 76.36666666666666,
-  "tag": "franchise",
+  "tag": "cooking",
   "start": 0
 }, {
   "time": 76.76666666666667,
@@ -313,7 +313,7 @@ var timing = [{
   "start": 0
 }, {
   "time": 105.9,
-  "tag": "appliance",
+  "tag": "fire",
   "start": 0
 }, {
   "time": 107.13333333333334,
@@ -395,9 +395,20 @@ timing.forEach(function(timingItem, idx) {
     videoSegment.setDuration(3.5);
   }
 
-  renderer.scheduleSegmentRender(videoSegment, startDelay + timingItem.time * 1000);
+  //renderer.scheduleSegmentRender(videoSegment, startDelay + timingItem.time * 1000);
 });
 
-var audioSegment = new frampton.AudioSegment(mediaConfig.audio[0]);
-audioSegment.preferHTMLAudio = true;
-renderer.scheduleSegmentRender(audioSegment, startDelay);
+// check for MP3
+var audio = document.createElement('audio');
+if (!(audio.canPlayType && (audio.canPlayType('audio/mp3') || audio.canPlayType('audio/mpeg')))) {
+  alert('Please use a browser that can play MP3s (Chrome, Safari, Internet Explorer 9+)');
+}
+
+// create aligner
+var aligner = new window.AudioAligner(document.getElementById('target'), audio);
+aligner.align('media/feed_the_streets.mp3', 'js/feed-the-streets-visual.json');
+
+// play when visuals start
+setTimeout(function() {
+  audio.play();
+}, startDelay);
